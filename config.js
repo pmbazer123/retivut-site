@@ -4,9 +4,8 @@ window.LANDING_CONFIG = {
   phoneDisplay: "055-290-7103",
   phoneHref: "tel:+972552907103",
   whatsappNumber: "972552907103",
-  whatsappMessage: "היי, אני צריך/ה איתור נזילות בבאר שבע. אפשר לחזור אליי?",
-  serviceArea: "באר שבע והאזור הקרוב",
-  formAction: "",
+  whatsappMessage: "היי, אני צריך/ה איתור נזילות במודיעין. אפשר לחזור אליי?",
+  serviceArea: "מודיעין-מכבים-רעות והאזור הקרוב",
+  formAction: "https://formspree.io/f/mredeled",
   formSuccessMessage: "תודה, קיבלנו את הפנייה. נחזור אליכם בהקדם.",
-  allowIndexing: false,
 };

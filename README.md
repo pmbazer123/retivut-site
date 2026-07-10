@@ -7,34 +7,19 @@
 - `config.example.js` , starter template
 
 ## Current target
-This prototype is now aligned to:
 - **Niche:** leak detection only
-- **City:** Beer Sheva
-- **Selected domain:** `retivut.co.il`
+- **City:** Modiin (מודיעין-מכבים-רעות)
+- **Domain:** `retivut.co.il`
+- **Phone:** 055-290-7103 (live, via 019)
+- **WhatsApp:** active on same number
 
 ## Before publishing
-Edit `config.js` and replace:
-- `siteUrl`
-- `businessName`
-- `phoneDisplay`
-- `phoneHref`
-- `whatsappNumber`
-- `whatsappMessage`
-- `serviceArea`
-- `formAction`
-- `allowIndexing` (`false` for staging, `true` only when the live site is really ready)
+Edit `config.js` — phone and WhatsApp are already wired. The only remaining value to fill:
+- `formAction` — paste your Formspree, Tally, or webhook URL here once the form is set up
 
 ## Scope note
 Keep the site positioned around **diagnosis / detection**.
 Do not blur it into a generic plumbing page unless we later choose to expand.
-
-## Staging safety
-The page now ships with `noindex` by default.
-
-That means:
-- staging deployments are safe to review publicly
-- search engines should not index the page yet
-- only switch `allowIndexing` to `true` when the live domain, real intake, and final copy are in place
 
 ## Form setup
 Right now the form is intentionally not connected.
