@@ -5,6 +5,7 @@
 - `styles.css` , the styling
 - `config.js` , live editable config
 - `config.example.js` , starter template
+- `SEO-PLAN.md` , current SEO and rollout plan
 
 ## Current target
 - **Niche:** leak detection only
