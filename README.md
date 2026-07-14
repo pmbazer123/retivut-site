@@ -1,4 +1,4 @@
-# Landing Page Prototype
+# Retivut Landing Page
 
 ## Files
 - `index.html` , the landing page
@@ -13,23 +13,32 @@
 - **Phone:** 055-290-7103 (live, via 019)
 - **WhatsApp:** active on same number
 
-## Before publishing
-Edit `config.js` — phone and WhatsApp are already wired. The only remaining value to fill:
-- `formAction` — paste your Formspree, Tally, or webhook URL here once the form is set up
+## Live configuration
+Edit `config.js` for business details. Current live values are already wired:
+- phone / WhatsApp: `055-290-7103`
+- lead form: Formspree endpoint in `formAction`
+- canonical domain: `https://retivut.co.il/`
 
 ## Scope note
 Keep the site positioned around **diagnosis / detection**.
 Do not blur it into a generic plumbing page unless we later choose to expand.
 
-## Form setup
-Right now the form is intentionally not connected.
-Until `formAction` is filled, the page will warn and push people to phone or WhatsApp.
+## Hosting
+Source repo: `pmbazer123/retivut-site`.
 
-You can connect it to:
-- Formspree
-- Tally form endpoint
-- a custom webhook
-- your own backend
+Cloudflare Pages project: `retivut`.
+
+Temporary Pages URL:
+
+```text
+https://retivut.pages.dev
+```
+
+Custom domains:
+- `retivut.co.il`
+- `www.retivut.co.il`
+
+The custom domains depend on the registrar nameservers pointing to the active Cloudflare zone.
 
 ## Local preview
 From this folder run:
