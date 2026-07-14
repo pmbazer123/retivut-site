@@ -8,6 +8,7 @@
 - **City:** מודיעין-מכבים-רעות
 - **Primary query:** `איתור נזילות במודיעין`
 - **Primary conversion:** WhatsApp / phone / short form
+- **45-day goal:** 15 qualified leads
 
 The site is live on Cloudflare Pages. The only current launch blocker for the real domain is the registrar-side nameserver update at Internic.
 
@@ -24,17 +25,22 @@ Do not start Google Search Console work until the domain resolves through Cloudf
 
 ## Strategy
 
-This is not a pure long-cycle SEO project.
+This is not a pure long-cycle SEO project. The working goal is:
+
+> Collect **15 qualified leads within 45 days** of the domain going live.
 
 The right path is **local lead-gen validation first, SEO compounding underneath**:
 
 1. Get the domain live.
 2. Get Google to index the page.
 3. Capture and log every lead.
-4. Use small Google Ads spend to prove demand before organic SEO matures.
-5. Build local SEO assets only after the first page is technically clean and converting.
+4. Launch a small Google Ads test quickly, once tracking is ready.
+5. Improve conversion on the main page based on actual lead quality.
+6. Build local SEO assets underneath the validation work.
 
-SEO alone will probably not produce meaningful leads in the first 60 days. That is fine. The SEO work should make the site stronger over months while ads and outreach prove the business model faster.
+SEO alone will probably not produce 15 leads in 45 days. That is fine. The 45-day goal depends on **Ads + conversion + tracking**, while SEO makes the site stronger over months.
+
+Do not judge the first 45 days by ranking alone. Judge by qualified contacts, cost per qualified lead, and whether the page attracts real Modiin leak-detection demand.
 
 ---
 
@@ -209,7 +215,7 @@ Early success is impressions, not rankings.
 
 ## Google Ads As Proof Engine
 
-SEO is slow. Ads are for proof.
+SEO is slow. Ads are required for the 45-day lead goal.
 
 Start only after:
 
@@ -223,7 +229,8 @@ Initial campaign:
 - Search only
 - Hebrew
 - Modiin + 15km radius
-- Budget: about ₪70/day
+- Starting budget: about ₪70/day for 7 days
+- Increase only if leads are relevant and tracking is clean
 - Exact/phrase match around the main keywords
 
 Negative keywords:
@@ -246,6 +253,13 @@ Track:
 - qualified lead rate
 
 The goal is not ad optimization perfection. The goal is to prove whether people in Modiin actually contact this page for leak detection.
+
+### 45-Day Ads Guardrails
+
+- If there are clicks but no leads after 3-5 days, check conversion first: WhatsApp, phone visibility, form, page promise.
+- If leads are irrelevant, tighten keywords and negatives before raising budget.
+- If qualified leads arrive under a reasonable cost, keep the campaign running while SEO assets compound.
+- Do not scale spend before every lead is logged.
 
 ---
 
@@ -275,15 +289,49 @@ Qualified lead:
 
 ---
 
-## 60-Day Targets
+## 45-Day Lead Goal
+
+Primary target:
+
+- **15 qualified leads within 45 days**
+
+This target is measured from the day `retivut.co.il` is live, tracking is tested, and lead capture works.
+
+Expected source mix:
+
+- Google Ads: primary source during the first 45 days
+- Direct / referrals / local listings: secondary
+- Organic SEO: helpful signal, but not expected to carry the target yet
+
+### Lead Pace
+
+To stay on track:
+
+- Day 7 after launch: 1-2 qualified leads, or clear evidence that tracking and ads are working
+- Day 14: 4+ qualified leads cumulative
+- Day 30: 10+ qualified leads cumulative
+- Day 45: 15+ qualified leads cumulative
+
+If the project is behind pace, the response is not automatically "more SEO". First check:
+
+1. Are ads running on the right searches?
+2. Are WhatsApp, phone, and form working?
+3. Is the page clear enough that this is leak detection in Modiin?
+4. Are leads being missed because calls/WhatsApp are not logged?
+5. Is the operator/response flow converting inquiries into real qualified leads?
+
+---
+
+## 45-Day Execution Targets
 
 ### Day 14
 
 - Domain live
 - GSC verified
 - Homepage indexed or submitted
-- Ads test running or ready
-- 3+ qualified contacts if ads are active
+- Ads test running
+- Lead logging active
+- 4+ qualified leads cumulative, or a written diagnosis of the bottleneck
 
 ### Day 30
 
@@ -292,9 +340,9 @@ Qualified lead:
 - first supporting content page published
 - operator prospect list prepared
 
-### Day 60
+### Day 45
 
-- 20+ qualified contacts cumulative, or enough data to pivot
+- 15+ qualified contacts cumulative, or enough data to decide whether to continue, adjust niche, or change operator/channel
 - one operator pilot running or clear reason why not
 - GSC impressions visible for the core query
 
@@ -306,17 +354,19 @@ Sunday:
 
 - Review leads and source quality.
 - Check GSC queries.
-- Ship one SEO task.
+- Ship one SEO or conversion task.
 
 Daily if ads are running:
 
 - Check search terms.
 - Add obvious negatives.
 - Log every call/WhatsApp/form.
+- Check whether yesterday's leads were qualified.
 
 Thursday:
 
-- Review whether the week produced enough proof to continue.
+- Review pace toward 15 leads / 45 days.
+- Decide one action for the next week: improve page, tighten ads, add citation, publish support page, or fix logging.
 
 ---
 
@@ -328,5 +378,5 @@ Thursday:
 4. Verify Google Search Console.
 5. Submit homepage for indexing.
 6. Rewrite current page with stronger local Modiin language.
-7. Prepare Google Ads only after tracking/logging is ready.
-
+7. Confirm lead logging workflow.
+8. Prepare and launch Google Ads after tracking/logging is ready.
